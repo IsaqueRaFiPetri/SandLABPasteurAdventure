@@ -1,10 +1,11 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class eenterPanelDificulty : MonoBehaviour
 {
     [SerializeField] private GameObject Panel;
     public KeyCode keyToPress = KeyCode.E; // Change this to the key you want to use
+    [SerializeField] private Button ClosePainelBTN;
 
     public void OnTriggerStay2D()
     {
@@ -12,5 +13,9 @@ public class eenterPanelDificulty : MonoBehaviour
         {
             Panel.SetActive(true);
         }
+    }
+    public void ClosePainel()
+    {
+        Panel.SetActive(false);
     }
 }
