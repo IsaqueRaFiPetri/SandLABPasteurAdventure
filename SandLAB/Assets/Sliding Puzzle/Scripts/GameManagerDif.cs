@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameManager : MonoBehaviour
+public class GameManagerDif : MonoBehaviour
 {
     [SerializeField] private Transform gameTransform;
     [SerializeField] private Transform piecePrefab;
@@ -57,7 +57,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         pieces = new List<Transform>();
-        size = 3;
+        size = 4;
         CreateGamePieces(0.01f);
     }
 
