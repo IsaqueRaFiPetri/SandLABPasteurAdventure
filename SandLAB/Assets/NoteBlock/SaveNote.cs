@@ -7,9 +7,15 @@ public class SaveNote : MonoBehaviour
     public GameObject ourNote;
     public GameObject placeHolder;
 
-    // Start is called before the first frame update
     void Start()
     {
-        
+        theText = PlayerPrefs.GetString("NoteContent");
+        placeHolder.GetComponent<InputField>().text = theText;
+    }
+
+    public void Save()
+    {
+        theText = ourNote.GetComponent<Text>().text;
+        PlayerPrefs.SetString("NoteContent", theText);
     }
 }
