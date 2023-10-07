@@ -6,24 +6,24 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/MenuScene/MenuScene.unity
+    path: Assets/Scenes/MenuScene.unity
     guid: 4b740d2450039a34097dc1f9e27cf429
   - enabled: 1
-    path: Assets/GameScene/GameScene.unity
+    path: Assets/Scenes/GameScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/NoteBlock/NoteScene.unity
+    path: Assets/Scenes/NoteScene.unity
     guid: 55d06809b8aea814487bdf60420e686d
   - enabled: 1
-    path: Assets/Abiogeneses puzzle/Abiogenese.unity
+    path: Assets/Scenes/Abiogenese.unity
     guid: 890f2a5f5042f2447b9e3132c9aaa5f5
   - enabled: 1
     path: Assets/Arrumar/CompleteAsLacunas.unity
     guid: 59f00ba0ebfd40b4e869e665c8f48497
   - enabled: 1
-    path: Assets/Sliding Puzzle/SlidingPuzzleEasy.unity
+    path: Assets/Scenes/SlidingPuzzleEasy.unity
     guid: a3593ab2906be80429129add5d083f61
   - enabled: 1
-    path: Assets/Sliding Puzzle/SlidingPuzzleDif.unity
+    path: Assets/Scenes/SlidingPuzzleDif.unity
     guid: f95c09aacb08da742b4c4ec4c3ea9510
   m_configObjects: {}
