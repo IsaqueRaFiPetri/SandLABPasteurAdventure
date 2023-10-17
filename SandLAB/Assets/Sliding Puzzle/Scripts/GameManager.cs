@@ -122,6 +122,10 @@ public class GameManager : MonoBehaviour
             }
         }
         return true;
+        /*if (pieces[i].name == $"{i}")
+            {
+                SceneManager.LoadScene("sceneNameToLoad");
+            }*/
     }
 
     private IEnumerator WaitShuffle(float duration)
