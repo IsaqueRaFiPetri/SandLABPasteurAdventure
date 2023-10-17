@@ -4,6 +4,7 @@ using UnityEngine.UI;
 public class NotePadButton : MonoBehaviour
 {
     [SerializeField] private Button NoteButton;
+    public GameObject NotePadPainel;
      
     private void Awake()
     {
@@ -12,11 +13,11 @@ public class NotePadButton : MonoBehaviour
 
     private void OnButtonNotePadClick()
     {
-        Debug.Log("Bloco");
+        Debug.Log("Bloco de Nota");
     }
     
     public void NoteSceneBTN()
     {
-        Application.LoadLevel("NoteScene");
+        gameObject.SetActive(true);
     }
 }
