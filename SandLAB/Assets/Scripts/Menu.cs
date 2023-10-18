@@ -4,12 +4,12 @@ using UnityEngine.UI;
 
 public class Menu : MonoBehaviour
 {
-    public string sceneNameToLoad;
     [SerializeField] private GameObject painelCreditos;
     [SerializeField] private Button playBTN;
     [SerializeField] private Button quitlBTN;
     [SerializeField] private Button QuitPainelBTN;
     [SerializeField] private Button CretisBTN;
+    public string sceneNameToLoad;
 
     public void Creditos()
     {
@@ -23,7 +23,7 @@ public class Menu : MonoBehaviour
     }
     public void PlayBTN()
     {
-        SceneManager.LoadScene("sceneNameToLoad");
+        SceneManager.LoadScene(sceneNameToLoad);
         Debug.Log("Play");
     }
 

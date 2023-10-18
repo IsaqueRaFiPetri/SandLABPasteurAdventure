@@ -1,26 +1,23 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
-public class QuitButtonNote : MonoBehaviour
+public class QuitButtonGame : MonoBehaviour
 {
     [SerializeField] private Button QuitButton;
-    public GameObject painelNotePad;
 
-    private void Awake()
+    /*private void Awake()
     {
         QuitButton.onClick.AddListener(OnButtonQuitClick);
-    }
+    }*/
+
     private void OnButtonQuitClick()
     {
         Debug.Log("Sair");
     }
 
-
     public void QuitSceneBTN()
     {
-        gameObject.SetActive(false);
+        SceneManager.LoadScene("MenuScene");
     }
-
 }

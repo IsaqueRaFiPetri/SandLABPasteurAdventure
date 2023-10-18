@@ -238,6 +238,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   gameTransform: {fileID: 1905977824}
   piecePrefab: {fileID: 663749353162776488, guid: f1f7d77db710e6f409d8cc639a441613, type: 3}
+  sceneNameToLoad: GameScene
 --- !u!4 &1326899902
 Transform:
   m_ObjectHideFlags: 0

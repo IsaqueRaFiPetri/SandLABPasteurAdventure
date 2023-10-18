@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -11,6 +12,7 @@ public class GameManager : MonoBehaviour
     private int emptyLocation;
     private int size;
     private bool shuffling = false;
+    public string sceneNameToLoad;
 
     // Create the game setup with size x size pieces.
     private void CreateGamePieces(float gapThickness)
@@ -69,7 +71,12 @@ public class GameManager : MonoBehaviour
         {
             shuffling = true;
             StartCoroutine(WaitShuffle(0.5f));
+            
         }
+        /*if (CheckCompletion = true)
+        {
+            SceneManager.LoadScene(sceneNameToLoad);
+        }*/
 
         // On click send out ray to see if we click a piece.
         if (Input.GetMouseButtonDown(0))
