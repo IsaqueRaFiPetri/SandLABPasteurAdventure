@@ -7,7 +7,7 @@ public class Menu : MonoBehaviour
     [SerializeField] private GameObject painelCreditos;
     [SerializeField] private Button playBTN;
     [SerializeField] private Button quitlBTN;
-    [SerializeField] private Button QuitPainelBTN;
+    [SerializeField] private Button sairCreditosBTN;
     [SerializeField] private Button CretisBTN;
     public string sceneNameToLoad;
 

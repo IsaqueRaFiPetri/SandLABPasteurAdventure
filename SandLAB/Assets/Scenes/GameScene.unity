@@ -274,7 +274,6 @@ Transform:
   - {fileID: 368622148}
   - {fileID: 1926168544}
   - {fileID: 444078783}
-  - {fileID: 1351151268}
   - {fileID: 1172659378}
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -1738,8 +1737,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 528451225}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.0192, y: 4.7462, z: 0}
-  m_LocalScale: {x: 14.065358, y: 1.1800238, z: 1}
+  m_LocalPosition: {x: -2.1237, y: 4.7462, z: 0}
+  m_LocalScale: {x: 14.274932, y: 1.1800238, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 16662436}
@@ -3099,7 +3098,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &1101202064
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3509,7 +3508,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 16662436}
-  m_RootOrder: 13
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &1172659379
 BoxCollider2D:
@@ -4118,7 +4117,6 @@ GameObject:
   - component: {fileID: 1281594141}
   - component: {fileID: 1281594140}
   - component: {fileID: 1281594139}
-  - component: {fileID: 1281594142}
   - component: {fileID: 1281594143}
   m_Layer: 5
   m_Name: QuitButton
@@ -4192,7 +4190,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1281594142}
+      - m_Target: {fileID: 1281594143}
         m_TargetAssemblyTypeName: QuitButtonGame, Assembly-CSharp
         m_MethodName: QuitSceneBTN
         m_Mode: 1
@@ -4242,18 +4240,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1281594136}
   m_CullTransparentMesh: 1
---- !u!114 &1281594142
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1281594136}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d04f1d199168d2c4995e6d6508b711c3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1281594143
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4266,7 +4252,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a504d64acc43734fa17b4cc2e7f3698, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  QuitButton: {fileID: 0}
+  QuitButton: {fileID: 1281594139}
 --- !u!1 &1347995605
 GameObject:
   m_ObjectHideFlags: 0
@@ -4345,8 +4331,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1347995605}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.64, y: -9.0681, z: -5}
-  m_LocalScale: {x: 2.4843488, y: 3.1406422, z: 2.0695}
+  m_LocalPosition: {x: -1.64, y: -9.3772, z: -5}
+  m_LocalScale: {x: 2.4843488, y: 2.7172835, z: 2.0695}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2042515084}
@@ -4455,12 +4441,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1351151266}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.005100012, y: -0.52369976, z: 0}
+  m_LocalPosition: {x: 3.8251, y: -14.4837, z: 0}
   m_LocalScale: {x: 1.0475938, y: 1.2353475, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 16662436}
-  m_RootOrder: 12
+  m_Father: {fileID: 2042515084}
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1394612300
 GameObject:
@@ -4725,7 +4711,7 @@ GameObject:
   m_Layer: 0
   m_Name: ButtonControl
   m_TagString: Untagged
-  m_Icon: {fileID: 2974397684917235467, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -4742,7 +4728,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2086693429}
-  m_RootOrder: 3
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1457893063
 MonoBehaviour:
@@ -4866,8 +4852,8 @@ RectTransform:
   m_Children:
   - {fileID: 1281594137}
   - {fileID: 1270054831}
-  - {fileID: 1888170209}
   - {fileID: 2086693429}
+  - {fileID: 1888170209}
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5434,7 +5420,7 @@ RectTransform:
   - {fileID: 443965358}
   - {fileID: 1424529327}
   m_Father: {fileID: 2086693429}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5907,7 +5893,7 @@ RectTransform:
   - {fileID: 931079031}
   - {fileID: 1131689068}
   m_Father: {fileID: 1473557595}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -6412,6 +6398,7 @@ Transform:
   - {fileID: 150754676}
   - {fileID: 1347995607}
   - {fileID: 1962659794}
+  - {fileID: 1351151268}
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6448,11 +6435,11 @@ RectTransform:
   - {fileID: 328441874}
   - {fileID: 1722583922}
   - {fileID: 1394612301}
-  - {fileID: 1457893062}
   - {fileID: 2126908808}
   - {fileID: 1698849324}
+  - {fileID: 1457893062}
   m_Father: {fileID: 1473557595}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -6531,7 +6518,7 @@ RectTransform:
   m_Children:
   - {fileID: 1854120479}
   m_Father: {fileID: 2086693429}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}

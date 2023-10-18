@@ -237,8 +237,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -350}
-  m_SizeDelta: {x: 250, y: 125}
+  m_AnchoredPosition: {x: 300, y: -355.09}
+  m_SizeDelta: {x: 250, y: 157.77}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &565982234
 MonoBehaviour:
@@ -284,9 +284,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 565982237}
-        m_TargetAssemblyTypeName: CompleteAsLaunasToGame, Assembly-CSharp
-        m_MethodName: QuitSceneBTN
+      - m_Target: {fileID: 1546099960}
+        m_TargetAssemblyTypeName: CompleteAsLacunasButtonControls, Assembly-CSharp
+        m_MethodName: PassarParaProximaPergunta
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -385,8 +385,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -300, y: -350}
-  m_SizeDelta: {x: 250, y: 125}
+  m_AnchoredPosition: {x: -300, y: -355.09003}
+  m_SizeDelta: {x: 250, y: 157.77}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &869858671
 MonoBehaviour:
@@ -431,7 +431,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 869858672}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1546099960}
+        m_TargetAssemblyTypeName: CompleteAsLacunasButtonControls, Assembly-CSharp
+        m_MethodName: Btnerrado
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &869858672
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -659,8 +671,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 300, y: -350}
-  m_SizeDelta: {x: 250, y: 125}
+  m_AnchoredPosition: {x: 0, y: -355.09003}
+  m_SizeDelta: {x: 250, y: 157.77}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1211942910
 MonoBehaviour:
@@ -705,7 +717,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1211942911}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1546099960}
+        m_TargetAssemblyTypeName: CompleteAsLacunasButtonControls, Assembly-CSharp
+        m_MethodName: Btnerrado
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1211942911
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -859,8 +883,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0.0000076293945, y: 0}
+  m_SizeDelta: {x: -18.08, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1434159185
 MonoBehaviour:
@@ -895,7 +919,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Biog\xEAnese / Pasteur / Abiog\xEAnese"
+  m_Text: "L\xE1zzaro Spallanzani & Francesco Redi"
 --- !u!222 &1434159186
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1011,6 +1035,53 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1546099959
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1546099961}
+  - component: {fileID: 1546099960}
+  m_Layer: 0
+  m_Name: ButtonsController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1546099960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1546099959}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0129644283fe1a74b9f903a1bb4a740a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  proximaPergunta: GameScene
+  pergunta1: CompleteAsLAcunas1
+  CorrectButton: {fileID: 565982234}
+--- !u!4 &1546099961
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1546099959}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.04757118, y: -0.9183004, z: 0.003348383}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1561606009
 GameObject:
   m_ObjectHideFlags: 0
@@ -1126,8 +1197,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0.0000076293945, y: 0}
+  m_SizeDelta: {x: -12.43, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1665125562
 MonoBehaviour:
@@ -1162,7 +1233,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Matem\xE1tica / Pasteur / Abiog\xEAnese"
+  m_Text: Elon musk & Bill Gates
 --- !u!222 &1665125563
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1207,7 +1278,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_SizeDelta: {x: -37.3, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1927623032
 MonoBehaviour:
@@ -1242,7 +1313,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: " Adrenalina / Pastel / Biog\xEAnese"
+  m_Text: Steve Jobs & Stanley Miller
 --- !u!222 &1927623033
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1322,9 +1393,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "A ________ \xE9 uma teoria criada e comprovada pelo Qu\xEDmico franc\xEAs
-    Louis __________ no s\xE9culo XIX. Essa teoria descomprovou a teoria que havia
-    na \xE9poca, a da ___________."
+  m_Text: "Al\xE9m de Louis Pasteur, houve outros cientistas que comprovaram a biogenes.
+    Qual das alternativas abaixo tem como resposta 2 cientistas que comprovaram a
+    biogenese?"
 --- !u!222 &2047467483
 CanvasRenderer:
   m_ObjectHideFlags: 0

@@ -12,24 +12,21 @@ EditorBuildSettings:
     path: Assets/Scenes/GameScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/NoteScene.unity
-    guid: 55d06809b8aea814487bdf60420e686d
-  - enabled: 1
     path: Assets/Scenes/Abiogenese.unity
     guid: 890f2a5f5042f2447b9e3132c9aaa5f5
   - enabled: 1
     path: Assets/Scenes/CompleteAsLacunas1.unity
     guid: 59f00ba0ebfd40b4e869e665c8f48497
   - enabled: 1
-    path: Assets/Scenes/SlidingPuzzleEasy.unity
-    guid: a3593ab2906be80429129add5d083f61
-  - enabled: 1
-    path: Assets/Scenes/SlidingPuzzleDif.unity
-    guid: f95c09aacb08da742b4c4ec4c3ea9510
-  - enabled: 1
     path: Assets/Scenes/CompleteAsLacunas2.unity
     guid: cce57482281a98e4ea5bfa3c0589a1c0
   - enabled: 1
     path: Assets/Scenes/CompleteAsLacunas3.unity
     guid: 583bb28349196264c897ac7d056b67fe
+  - enabled: 1
+    path: Assets/Scenes/SlidingPuzzleEasy.unity
+    guid: a3593ab2906be80429129add5d083f61
+  - enabled: 1
+    path: Assets/Scenes/SlidingPuzzleDif.unity
+    guid: f95c09aacb08da742b4c4ec4c3ea9510
   m_configObjects: {}

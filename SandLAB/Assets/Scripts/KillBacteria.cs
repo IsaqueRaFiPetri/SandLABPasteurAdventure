@@ -11,9 +11,9 @@ public class KillBacteria : MonoBehaviour
     {
         Debug.Log("I morreu");
         Destroy(gameObject);
-        if(bacterias == null)
+        /*(bacterias == null)
         {
             SceneManager.LoadScene(GameScene);
-        }
+        }*/
     }
 }
