@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class GameManagerDif : MonoBehaviour
 {
@@ -11,6 +13,8 @@ public class GameManagerDif : MonoBehaviour
     private int emptyLocation;
     private int size;
     private bool shuffling = false;
+    public string sceneNameToLoad;
+    public Button sairDoPuzzle;
 
     // Create the game setup with size x size pieces.
     private void CreateGamePieces(float gapThickness)
@@ -161,5 +165,9 @@ public class GameManagerDif : MonoBehaviour
                 count++;
             }
         }
+    }
+    public void SairDoPuzzleDificil()
+    {
+        SceneManager.LoadScene(sceneNameToLoad);
     }
 }

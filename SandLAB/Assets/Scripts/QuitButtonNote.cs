@@ -20,7 +20,7 @@ public class QuitButtonNote : MonoBehaviour
 
     public void QuitSceneBTN()
     {
-        gameObject.SetActive(false);
+        painelNotePad.SetActive(false);
     }
 
 }

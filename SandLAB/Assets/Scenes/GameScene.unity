@@ -681,7 +681,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 168401243}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.02}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2899,7 +2899,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 946611620}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.01, y: -3, z: 0}
+  m_LocalPosition: {x: 7.01, y: -3, z: -0.23}
   m_LocalScale: {x: 1.5944068, y: 1.5146643, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3160,7 +3160,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1101202062}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.01, y: 1, z: 0}
+  m_LocalPosition: {x: 7.01, y: 1, z: -0.23}
   m_LocalScale: {x: 1.5741953, y: 1.4289428, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3721,7 +3721,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1185729685}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6, y: -2, z: 0}
+  m_LocalPosition: {x: -6, y: -2, z: -0.23}
   m_LocalScale: {x: 1.5909, y: 1.4956, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4041,7 +4041,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1270054834}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1270054836}
+        m_TargetAssemblyTypeName: NotePadButton, Assembly-CSharp
+        m_MethodName: NoteSceneBTN
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1270054834
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6584,9 +6596,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 2126908809}
         m_TargetAssemblyTypeName: QuitButtonNote, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: QuitSceneBTN
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

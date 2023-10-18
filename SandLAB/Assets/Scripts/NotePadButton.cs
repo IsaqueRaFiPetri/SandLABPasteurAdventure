@@ -18,6 +18,6 @@ public class NotePadButton : MonoBehaviour
     
     public void NoteSceneBTN()
     {
-        gameObject.SetActive(true);
+        NotePadPainel.SetActive(true);
     }
 }
