@@ -2918,7 +2918,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5cd0e80dfeed8a4facc91844d8abe66, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneNameToLoad: CompleteAsLacunas
+  sceneNameToLoad: CompleteAsLacunas1
   keyToPress: 101
 --- !u!1 &1040638113
 GameObject:
@@ -3099,7 +3099,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &1101202064
 SpriteRenderer:
   m_ObjectHideFlags: 0
