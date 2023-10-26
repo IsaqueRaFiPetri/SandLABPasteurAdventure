@@ -6,21 +6,22 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class MoverObject2D : MonoBehaviour //funciona apenas com cameras ortograficas
 {
-    Vector3 posicaoinicial;
-    Vector3 posicaoDestino;
-    Vector3 vetorDirecao;
+    Vector3 startingPosition;
+    Vector3 finalPosition;
+    Vector3 directionVector;
     Rigidbody2D _rigidbody2D;
-    bool estaArrastando;
-    float distancia;
+    bool isDragging;
+    float distance;
+    //public bool rodrigoFaro;
 
     [HideInInspector]
-    public bool estaConectado;
+    public bool isConected;
     [Range(1, 15)]
-    public float velocidadeDeMovimento = 10;
+    public float movVelocity = 10;
     [Space(10)]
     public Transform conector;
     [Range(0.1f, 2.0f)]
-    public float distanciaMinimaConector = 0.5f;
+    public float minimunDistanceFromConector = 0.5f;
 
     // Start is called before the first frame update
     void Start()
@@ -31,21 +32,21 @@ public class MoverObject2D : MonoBehaviour //funciona apenas com cameras ortogra
 
     private void OnMouseDown()
     {
-        posicaoinicial = transform.root.position - Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        startingPosition = transform.root.position - Camera.main.ScreenToWorldPoint(Input.mousePosition);
         _rigidbody2D.gravityScale = 0;
-        estaArrastando = true;
-        estaConectado = false;
+        isDragging = true;
+        isConected = false;
     }
     private void OnMouseDrag()
     {
-        posicaoDestino = posicaoinicial + Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        vetorDirecao = posicaoDestino - transform.root.position;
-        _rigidbody2D.velocity = vetorDirecao * velocidadeDeMovimento;
+        finalPosition = startingPosition + Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        directionVector = finalPosition - transform.root.position;
+        _rigidbody2D.velocity = directionVector * minimunDistanceFromConector;
     }
     private void OnMouseUp()
     {
         _rigidbody2D.gravityScale = 1;
-        estaArrastando = false;
+        isDragging = false;
     }   
 }
 
