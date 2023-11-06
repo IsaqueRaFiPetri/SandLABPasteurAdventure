@@ -30,24 +30,43 @@ public class MoverObject2D : MonoBehaviour //funciona apenas com cameras ortogra
         _rigidbody2D.gravityScale = 1;
     }
 
-    private void OnMouseDown()
+    void OnMouseDown()
     {
         startingPosition = transform.root.position - Camera.main.ScreenToWorldPoint(Input.mousePosition);
         _rigidbody2D.gravityScale = 0;
         isDragging = true;
         isConected = false;
     }
-    private void OnMouseDrag()
+    void OnMouseDrag()
     {
         finalPosition = startingPosition + Camera.main.ScreenToWorldPoint(Input.mousePosition);
         directionVector = finalPosition - transform.root.position;
-        _rigidbody2D.velocity = directionVector * minimunDistanceFromConector;
+        _rigidbody2D.velocity = directionVector * movVelocity;
     }
-    private void OnMouseUp()
+    void OnMouseUp()
     {
         _rigidbody2D.gravityScale = 1;
         isDragging = false;
-    }   
+    }
+
+    void FixedUpdate()
+    {
+        if(!isDragging &&  !isConected)
+        {
+            distance = Vector2.Distance(transform.root.position, conector.position);
+            if(distance < minimunDistanceFromConector)
+            {
+                _rigidbody2D.gravityScale = 0;
+                _rigidbody2D.velocity = Vector2.zero;
+                transform.root.position = Vector2.MoveTowards(transform.root.position, conector.position, 0.02f);
+            }
+            if (distance < 0.01)
+            {
+                isConected = true;
+                transform.root.position = conector .position;
+            }
+        }
+    }
 }
 
 //video de referencia - https://www.youtube.com/watch?v=EohhGbRgNds
