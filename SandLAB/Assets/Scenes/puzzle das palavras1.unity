@@ -328,7 +328,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ABOGENESEI
+  m_Text: "ABIOG\xCASENE"
 --- !u!222 &346594952
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -596,7 +596,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ABIOGENESE
+  m_Text: "ABIOG\xCANESE"
 --- !u!222 &886220323
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -676,7 +676,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: ABEOGENESI
+  m_Text: "ABEOG\xCANESI"
 --- !u!222 &1241212660
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -756,9 +756,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'BEAGENESEIO
-
-'
+  m_Text: "BEAGENES\xCAIO\n"
 --- !u!222 &1657745637
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -945,8 +943,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0129644283fe1a74b9f903a1bb4a740a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  proximaPergunta: GameScene
-  pergunta1: puzzle das palavras
+  proximaPergunta: puzzle das palavras2
+  pergunta1: puzzle das palavras1
   CorrectButton: {fileID: 1888558321}
 --- !u!1 &1837424001
 GameObject:
@@ -1053,7 +1051,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -615, y: -315}
+  m_AnchoredPosition: {x: -613, y: -315}
   m_SizeDelta: {x: 350, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1888558321
