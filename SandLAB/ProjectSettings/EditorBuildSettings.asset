@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SlidingPuzzleDif.unity
     guid: f95c09aacb08da742b4c4ec4c3ea9510
+  - enabled: 1
+    path: Assets/Scenes/puzzle das palavras.unity
+    guid: 73b6d5403025cc24d97ab9b22351df39
   m_configObjects: {}
