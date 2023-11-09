@@ -180,3 +180,5 @@ public class GameManager : MonoBehaviour
         SceneManager.LoadScene(sceneNameToLoad);
     }
 }
+
+//video de refêrencia: https://www.youtube.com/watch?v=IgBjJ-bexeo
