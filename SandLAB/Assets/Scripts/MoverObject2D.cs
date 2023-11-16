@@ -12,8 +12,7 @@ public class MoverObject2D : MonoBehaviour //funciona apenas com cameras ortogra
     Rigidbody2D _rigidbody2D;
     bool isDragging;
     float distance;
-    //public bool rodrigoFaro;
-
+    
     [HideInInspector]
     public bool isConected;
     [Range(1, 15)]

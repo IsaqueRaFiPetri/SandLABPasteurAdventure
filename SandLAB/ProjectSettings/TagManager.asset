@@ -42,6 +42,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Conector
+    uniqueID: 243157033
+    locked: 0
+  - name: Peca
+    uniqueID: 3372129061
+    locked: 0
   - name: HUD
-    uniqueID: 3155888359
+    uniqueID: 1880855063
     locked: 0
