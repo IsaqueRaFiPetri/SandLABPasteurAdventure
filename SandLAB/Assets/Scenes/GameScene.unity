@@ -356,7 +356,7 @@ Transform:
   - {fileID: 444078783}
   - {fileID: 1172659378}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &23076482
 GameObject:
@@ -549,7 +549,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 390407588}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -682,9 +682,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: CompleteAsLacunasButtonControls, Assembly-CSharp
-        m_MethodName: PassarParaProximaPergunta
+      - m_Target: {fileID: 1550362065}
+        m_TargetAssemblyTypeName: PerguntasBTNControls, Assembly-CSharp
+        m_MethodName: BTNCerto
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -743,8 +743,9 @@ GameObject:
   - component: {fileID: 125465204}
   - component: {fileID: 125465206}
   - component: {fileID: 125465205}
+  - component: {fileID: 125465207}
   m_Layer: 5
-  m_Name: Text (Legacy) (1)
+  m_Name: titulo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -763,7 +764,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 390407588}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -812,6 +813,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 125465203}
   m_CullTransparentMesh: 1
+--- !u!114 &125465207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 125465203}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa04fd95fcc84c94a821272b9c963117, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  proximaPergunta: {fileID: 1969810742}
+  pergunta1: {fileID: 614014962}
+  perguntaAtual: {fileID: 390407587}
+  painelDasPerguntas: {fileID: 1578022260}
+  CorrectButton: {fileID: 711294249}
 --- !u!1 &150223783
 GameObject:
   m_ObjectHideFlags: 0
@@ -1140,7 +1158,7 @@ Transform:
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &168401249
 MonoBehaviour:
@@ -1260,9 +1278,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: CompleteAsLacunasButtonControls, Assembly-CSharp
-        m_MethodName: Btnerrado
+      - m_Target: {fileID: 1752969314}
+        m_TargetAssemblyTypeName: PerguntasBTNControls, Assembly-CSharp
+        m_MethodName: BTNLastQuestionCorect
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1394,9 +1412,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: CompleteAsLacunasButtonControls, Assembly-CSharp
-        m_MethodName: Btnerrado
+      - m_Target: {fileID: 1131362001}
+        m_TargetAssemblyTypeName: PerguntasBTNControls, Assembly-CSharp
+        m_MethodName: BTNErrado
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1608,9 +1626,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: CompleteAsLacunasButtonControls, Assembly-CSharp
-        m_MethodName: Btnerrado
+      - m_Target: {fileID: 125465207}
+        m_TargetAssemblyTypeName: PerguntasBTNControls, Assembly-CSharp
+        m_MethodName: BTNErrado
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2529,8 +2547,8 @@ RectTransform:
   m_LocalScale: {x: 1.0003102, y: 1.0003102, z: 1.0003102}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 108510207}
   - {fileID: 125465204}
+  - {fileID: 108510207}
   - {fileID: 781693414}
   - {fileID: 711294248}
   - {fileID: 228664596}
@@ -2773,7 +2791,7 @@ RectTransform:
   m_Children:
   - {fileID: 1826267562}
   m_Father: {fileID: 973237246}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2824,9 +2842,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: CompleteAsLacunasButtonControls, Assembly-CSharp
-        m_MethodName: Btnerrado
+      - m_Target: {fileID: 861125947}
+        m_TargetAssemblyTypeName: PerguntasBTNControls, Assembly-CSharp
+        m_MethodName: BTNErrado
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3149,9 +3167,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: CompleteAsLacunasButtonControls, Assembly-CSharp
-        m_MethodName: Btnerrado
+      - m_Target: {fileID: 1550362065}
+        m_TargetAssemblyTypeName: PerguntasBTNControls, Assembly-CSharp
+        m_MethodName: BTNErrado
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3947,9 +3965,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: CompleteAsLacunasButtonControls, Assembly-CSharp
-        m_MethodName: Btnerrado
+      - m_Target: {fileID: 1131362001}
+        m_TargetAssemblyTypeName: PerguntasBTNControls, Assembly-CSharp
+        m_MethodName: BTNErrado
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4301,7 +4319,7 @@ RectTransform:
   m_Children:
   - {fileID: 256571429}
   m_Father: {fileID: 973237246}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -4352,9 +4370,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: CompleteAsLacunasButtonControls, Assembly-CSharp
-        m_MethodName: PassarParaProximaPergunta
+      - m_Target: {fileID: 861125947}
+        m_TargetAssemblyTypeName: PerguntasBTNControls, Assembly-CSharp
+        m_MethodName: BTNCerto
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4670,8 +4688,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 707503098}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.6994, y: -3.8700008, z: 0}
-  m_LocalScale: {x: 1.1710787, y: 1, z: 1}
+  m_LocalPosition: {x: 3.5709, y: -2.5456, z: 0}
+  m_LocalScale: {x: 1.0960125, y: 1.2453, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2042515084}
@@ -4761,9 +4779,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: CompleteAsLacunasButtonControls, Assembly-CSharp
-        m_MethodName: PassarParaProximaPergunta
+      - m_Target: {fileID: 125465207}
+        m_TargetAssemblyTypeName: PerguntasBTNControls, Assembly-CSharp
+        m_MethodName: BTNCerto
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5086,9 +5104,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: CompleteAsLacunasButtonControls, Assembly-CSharp
-        m_MethodName: Btnerrado
+      - m_Target: {fileID: 125465207}
+        m_TargetAssemblyTypeName: PerguntasBTNControls, Assembly-CSharp
+        m_MethodName: BTNErrado
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5411,9 +5429,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: CompleteAsLacunasButtonControls, Assembly-CSharp
-        m_MethodName: Btnerrado
+      - m_Target: {fileID: 1681893260}
+        m_TargetAssemblyTypeName: PerguntasBTNControls, Assembly-CSharp
+        m_MethodName: BTNErrado
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5492,7 +5510,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 973237246}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5552,8 +5570,9 @@ GameObject:
   - component: {fileID: 861125944}
   - component: {fileID: 861125946}
   - component: {fileID: 861125945}
+  - component: {fileID: 861125947}
   m_Layer: 5
-  m_Name: Text (Legacy) (1)
+  m_Name: titulo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5572,11 +5591,11 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 973237246}
-  m_RootOrder: 4
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.0000019073, y: 326}
+  m_AnchoredPosition: {x: 0, y: 326}
   m_SizeDelta: {x: 601.9, y: 89.11}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &861125945
@@ -5621,6 +5640,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 861125943}
   m_CullTransparentMesh: 1
+--- !u!114 &861125947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 861125943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa04fd95fcc84c94a821272b9c963117, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  proximaPergunta: {fileID: 390407587}
+  pergunta1: {fileID: 614014962}
+  perguntaAtual: {fileID: 973237245}
+  painelDasPerguntas: {fileID: 1578022260}
+  CorrectButton: {fileID: 672051820}
 --- !u!1 &882370289
 GameObject:
   m_ObjectHideFlags: 0
@@ -5816,9 +5852,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: CompleteAsLacunasButtonControls, Assembly-CSharp
-        m_MethodName: PassarParaProximaPergunta
+      - m_Target: {fileID: 1131362001}
+        m_TargetAssemblyTypeName: PerguntasBTNControls, Assembly-CSharp
+        m_MethodName: BTNCerto
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -5899,7 +5935,7 @@ RectTransform:
   m_Children:
   - {fileID: 414215317}
   m_Father: {fileID: 973237246}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -5950,9 +5986,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: CompleteAsLacunasButtonControls, Assembly-CSharp
-        m_MethodName: Btnerrado
+      - m_Target: {fileID: 861125947}
+        m_TargetAssemblyTypeName: PerguntasBTNControls, Assembly-CSharp
+        m_MethodName: BTNErrado
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6139,9 +6175,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: CompleteAsLacunasButtonControls, Assembly-CSharp
-        m_MethodName: Btnerrado
+      - m_Target: {fileID: 1681893260}
+        m_TargetAssemblyTypeName: PerguntasBTNControls, Assembly-CSharp
+        m_MethodName: BTNErrado
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6326,7 +6362,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &946611625
 MonoBehaviour:
@@ -6508,9 +6544,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: CompleteAsLacunasButtonControls, Assembly-CSharp
-        m_MethodName: Btnerrado
+      - m_Target: {fileID: 1338040128}
+        m_TargetAssemblyTypeName: PerguntasBTNControls, Assembly-CSharp
+        m_MethodName: BTNErrado
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6588,11 +6624,11 @@ RectTransform:
   m_LocalScale: {x: 1.0003102, y: 1.0003102, z: 1.0003102}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 861125944}
   - {fileID: 859946804}
   - {fileID: 672051819}
   - {fileID: 916770993}
   - {fileID: 426229920}
-  - {fileID: 861125944}
   m_Father: {fileID: 1578022261}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6896,9 +6932,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: CompleteAsLacunasButtonControls, Assembly-CSharp
-        m_MethodName: PassarParaProximaPergunta
+      - m_Target: {fileID: 1338040128}
+        m_TargetAssemblyTypeName: PerguntasBTNControls, Assembly-CSharp
+        m_MethodName: BTNCerto
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7031,7 +7067,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &1101202066
 BoxCollider2D:
@@ -7294,9 +7330,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: CompleteAsLacunasButtonControls, Assembly-CSharp
-        m_MethodName: Btnerrado
+      - m_Target: {fileID: 1752969314}
+        m_TargetAssemblyTypeName: PerguntasBTNControls, Assembly-CSharp
+        m_MethodName: BTNErrado
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7355,6 +7391,7 @@ GameObject:
   - component: {fileID: 1131361998}
   - component: {fileID: 1131362000}
   - component: {fileID: 1131361999}
+  - component: {fileID: 1131362001}
   m_Layer: 5
   m_Name: Text (Legacy) (1)
   m_TagString: Untagged
@@ -7424,6 +7461,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1131361997}
   m_CullTransparentMesh: 1
+--- !u!114 &1131362001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1131361997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa04fd95fcc84c94a821272b9c963117, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  proximaPergunta: {fileID: 1498831985}
+  pergunta1: {fileID: 614014962}
+  perguntaAtual: {fileID: 1969810742}
+  painelDasPerguntas: {fileID: 1578022260}
+  CorrectButton: {fileID: 915043451}
 --- !u!1 &1131689067
 GameObject:
   m_ObjectHideFlags: 0
@@ -7887,7 +7941,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1185729692
 MonoBehaviour:
@@ -8285,7 +8339,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1270054836}
         m_TargetAssemblyTypeName: NotePadButton, Assembly-CSharp
-        m_MethodName: NoteSceneBTN
+        m_MethodName: OpenNotePad
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8345,8 +8399,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d7f248894301ce48b863b2a350bfe8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NoteButton: {fileID: 1270054833}
-  NotePadPainel: {fileID: 2086693428}
+  openNoteBTN: {fileID: 1270054833}
+  closeNoteBTN: {fileID: 2126908810}
+  notePadPainel: {fileID: 2086693428}
 --- !u!1 &1281594136
 GameObject:
   m_ObjectHideFlags: 0
@@ -8381,7 +8436,7 @@ RectTransform:
   m_Children:
   - {fileID: 763479791}
   m_Father: {fileID: 1473557595}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -8579,9 +8634,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: CompleteAsLacunasButtonControls, Assembly-CSharp
-        m_MethodName: Btnerrado
+      - m_Target: {fileID: 1338040128}
+        m_TargetAssemblyTypeName: PerguntasBTNControls, Assembly-CSharp
+        m_MethodName: BTNErrado
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8720,6 +8775,7 @@ GameObject:
   - component: {fileID: 1338040125}
   - component: {fileID: 1338040127}
   - component: {fileID: 1338040126}
+  - component: {fileID: 1338040128}
   m_Layer: 5
   m_Name: "T\xEDtulo do Puzzle"
   m_TagString: Untagged
@@ -8789,6 +8845,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1338040124}
   m_CullTransparentMesh: 1
+--- !u!114 &1338040128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1338040124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa04fd95fcc84c94a821272b9c963117, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  proximaPergunta: {fileID: 973237245}
+  pergunta1: {fileID: 614014962}
+  perguntaAtual: {fileID: 1618311883}
+  painelDasPerguntas: {fileID: 1578022260}
+  CorrectButton: {fileID: 1087947098}
 --- !u!1 &1347995605
 GameObject:
   m_ObjectHideFlags: 0
@@ -9161,6 +9234,90 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1399226514}
   m_CullTransparentMesh: 1
+--- !u!1 &1420490303
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1420490306}
+  - component: {fileID: 1420490305}
+  - component: {fileID: 1420490304}
+  m_Layer: 0
+  m_Name: Main Camera (1)
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &1420490304
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1420490303}
+  m_Enabled: 1
+--- !u!20 &1420490305
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1420490303}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 1
+  orthographic size: 5.4219804
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 0
+  m_HDR: 1
+  m_AllowMSAA: 0
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 0
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &1420490306
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1420490303}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 12, z: -9.1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1424529326
 GameObject:
   m_ObjectHideFlags: 0
@@ -9307,7 +9464,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1457893061
 GameObject:
@@ -9462,13 +9619,13 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1578022261}
   - {fileID: 1281594137}
+  - {fileID: 1578022261}
   - {fileID: 1270054831}
   - {fileID: 2086693429}
   - {fileID: 1888170209}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -9869,6 +10026,7 @@ GameObject:
   - component: {fileID: 1550362062}
   - component: {fileID: 1550362064}
   - component: {fileID: 1550362063}
+  - component: {fileID: 1550362065}
   m_Layer: 5
   m_Name: "T\xEDtulo do Puzzle"
   m_TagString: Untagged
@@ -9938,6 +10096,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1550362061}
   m_CullTransparentMesh: 1
+--- !u!114 &1550362065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1550362061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa04fd95fcc84c94a821272b9c963117, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  proximaPergunta: {fileID: 1132619089}
+  pergunta1: {fileID: 614014962}
+  perguntaAtual: {fileID: 614014962}
+  painelDasPerguntas: {fileID: 1578022260}
+  CorrectButton: {fileID: 123791664}
 --- !u!1 &1553181382
 GameObject:
   m_ObjectHideFlags: 0
@@ -10088,7 +10263,7 @@ RectTransform:
   - {fileID: 1969810743}
   - {fileID: 1498831986}
   m_Father: {fileID: 1473557595}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
@@ -10378,9 +10553,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: CompleteAsLacunasButtonControls, Assembly-CSharp
-        m_MethodName: PassarParaProximaPergunta
+      - m_Target: {fileID: 1752969314}
+        m_TargetAssemblyTypeName: PerguntasBTNControls, Assembly-CSharp
+        m_MethodName: BTNErrado
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10439,6 +10614,7 @@ GameObject:
   - component: {fileID: 1681893257}
   - component: {fileID: 1681893259}
   - component: {fileID: 1681893258}
+  - component: {fileID: 1681893260}
   m_Layer: 5
   m_Name: "T\xEDtulo do Puzzle"
   m_TagString: Untagged
@@ -10508,6 +10684,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1681893256}
   m_CullTransparentMesh: 1
+--- !u!114 &1681893260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1681893256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa04fd95fcc84c94a821272b9c963117, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  proximaPergunta: {fileID: 1618311883}
+  pergunta1: {fileID: 614014962}
+  perguntaAtual: {fileID: 1132619089}
+  painelDasPerguntas: {fileID: 1578022260}
+  CorrectButton: {fileID: 1798182314}
 --- !u!1 &1687356626
 GameObject:
   m_ObjectHideFlags: 0
@@ -11071,6 +11264,7 @@ GameObject:
   - component: {fileID: 1752969311}
   - component: {fileID: 1752969313}
   - component: {fileID: 1752969312}
+  - component: {fileID: 1752969314}
   m_Layer: 5
   m_Name: Text (Legacy) (1)
   m_TagString: Untagged
@@ -11140,6 +11334,23 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1752969310}
   m_CullTransparentMesh: 1
+--- !u!114 &1752969314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1752969310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa04fd95fcc84c94a821272b9c963117, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  proximaPergunta: {fileID: 614014962}
+  pergunta1: {fileID: 614014962}
+  perguntaAtual: {fileID: 1498831985}
+  painelDasPerguntas: {fileID: 1578022260}
+  CorrectButton: {fileID: 199418634}
 --- !u!1 &1755820790
 GameObject:
   m_ObjectHideFlags: 0
@@ -11430,9 +11641,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: CompleteAsLacunasButtonControls, Assembly-CSharp
-        m_MethodName: PassarParaProximaPergunta
+      - m_Target: {fileID: 1681893260}
+        m_TargetAssemblyTypeName: PerguntasBTNControls, Assembly-CSharp
+        m_MethodName: BTNCerto
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -11644,9 +11855,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: CompleteAsLacunasButtonControls, Assembly-CSharp
-        m_MethodName: Btnerrado
+      - m_Target: {fileID: 1550362065}
+        m_TargetAssemblyTypeName: PerguntasBTNControls, Assembly-CSharp
+        m_MethodName: BTNErrado
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -12723,7 +12934,7 @@ Transform:
   - {fileID: 1962659794}
   - {fileID: 1351151268}
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2062363293
 GameObject:
@@ -12903,9 +13114,8 @@ GameObject:
   - component: {fileID: 2126908812}
   - component: {fileID: 2126908811}
   - component: {fileID: 2126908810}
-  - component: {fileID: 2126908809}
   m_Layer: 5
-  m_Name: QuitButton (1)
+  m_Name: CloseButton (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12932,20 +13142,6 @@ RectTransform:
   m_AnchoredPosition: {x: -860.37476, y: 463.27872}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2126908809
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2126908807}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 16f32f9de2320e9459017f7109c02354, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  QuitButton: {fileID: 2126908810}
-  painelNotePad: {fileID: 2086693428}
 --- !u!114 &2126908810
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12990,9 +13186,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2126908809}
-        m_TargetAssemblyTypeName: QuitButtonNote, Assembly-CSharp
-        m_MethodName: QuitSceneBTN
+      - m_Target: {fileID: 1270054836}
+        m_TargetAssemblyTypeName: NotePadButton, Assembly-CSharp
+        m_MethodName: CloseNotePad
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
