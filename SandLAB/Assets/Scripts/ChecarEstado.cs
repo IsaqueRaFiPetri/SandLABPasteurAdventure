@@ -32,6 +32,7 @@ public class ChecarEstado : MonoBehaviour
             if(soma >= objetos.Length)
             {
                 complete = true;
+
             }
         }
     }
