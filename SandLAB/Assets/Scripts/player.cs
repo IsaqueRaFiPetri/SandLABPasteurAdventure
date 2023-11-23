@@ -2,29 +2,22 @@ using UnityEngine;
 
 public class player : MonoBehaviour
 {
+    public Animator anim;
     public float speed;
-    [SerializeField] private Rigidbody2D rb2D;
-    private Vector2 playerDirection;
+    
 
-    #region Moviment
-
-    void Start()
+    // Update is called once per frame
+    void FixedUpdate()
     {
-        rb2D = GetComponent<Rigidbody2D>();
-    }
+        Vector3 movement = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0f);
 
-    void Update()
-    {
-        float horizontal = Input.GetAxis("Horizontal");
-        float vertical = Input.GetAxis("Vertical");
+        anim.SetFloat("Horizontal", movement.x);
+        anim.SetFloat("Vertical", movement.y);
+        anim.SetFloat("Speed", movement.magnitude);
 
-        playerDirection = new Vector2(horizontal, vertical);
+        transform.position = transform.position + movement * speed * Time.deltaTime;
     }
-    private void FixedUpdate()
-    {
-        rb2D.velocity = new Vector2(playerDirection.x * speed, playerDirection.y * speed);
-    }
-
-    #endregion Moviment
 
 }
+
+//video de referencia: https://www.youtube.com/watch?v=P8GF_clL1Y0

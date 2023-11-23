@@ -28,8 +28,8 @@ public class PerguntasBTNControls : MonoBehaviour
 
     public void BTNErrado()
     {
-        pergunta1.SetActive(true);
         perguntaAtual.SetActive(false);
+        pergunta1.SetActive(true);
     }
     public void BTNLastQuestionCorect()
     {

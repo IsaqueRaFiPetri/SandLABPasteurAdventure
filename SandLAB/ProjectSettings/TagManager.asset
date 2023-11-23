@@ -48,6 +48,9 @@ TagManager:
   - name: Peca
     uniqueID: 3372129061
     locked: 0
+  - name: "Decora\xE7\xE3o"
+    uniqueID: 2661392861
+    locked: 0
   - name: HUD
     uniqueID: 1880855063
     locked: 0
