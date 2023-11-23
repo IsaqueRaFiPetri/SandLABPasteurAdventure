@@ -12,8 +12,7 @@ public class MoverObject2D : MonoBehaviour //funciona apenas com cameras ortogra
     Rigidbody2D _rigidbody2D;
     bool isDragging;
     float distance;
-    //public bool rodrigoFaro;
-
+    
     [HideInInspector]
     public bool isConected;
     [Range(1, 15)]
@@ -30,26 +29,26 @@ public class MoverObject2D : MonoBehaviour //funciona apenas com cameras ortogra
         _rigidbody2D.gravityScale = 1;
     }
 
-    void OnMouseDown()
+   public void OnMouseDown()
     {
         startingPosition = transform.root.position - Camera.main.ScreenToWorldPoint(Input.mousePosition);
         _rigidbody2D.gravityScale = 0;
         isDragging = true;
         isConected = false;
     }
-    void OnMouseDrag()
+    public void OnMouseDrag()
     {
         finalPosition = startingPosition + Camera.main.ScreenToWorldPoint(Input.mousePosition);
         directionVector = finalPosition - transform.root.position;
         _rigidbody2D.velocity = directionVector * movVelocity;
     }
-    void OnMouseUp()
+    public void OnMouseUp()
     {
         _rigidbody2D.gravityScale = 1;
         isDragging = false;
     }
 
-    void FixedUpdate()
+    public void FixedUpdate()
     {
         if(!isDragging &&  !isConected)
         {

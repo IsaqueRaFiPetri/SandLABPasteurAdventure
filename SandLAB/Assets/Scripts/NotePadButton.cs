@@ -3,21 +3,32 @@ using UnityEngine.UI;
 
 public class NotePadButton : MonoBehaviour
 {
-    [SerializeField] private Button NoteButton;
-    public GameObject NotePadPainel;
+    [SerializeField] private Button openNoteBTN;
+    [SerializeField] private Button closeNoteBTN;
+    public GameObject notePadPainel;
      
     private void Awake()
     {
-        NoteButton.onClick.AddListener(OnButtonNotePadClick);
+        openNoteBTN.onClick.AddListener(OnOpenNotePadBTNClick);
+        closeNoteBTN.onClick.AddListener(OnCloseNotePadBTNClick);
     }
 
-    private void OnButtonNotePadClick()
+    private void OnOpenNotePadBTNClick()
     {
-        Debug.Log("Bloco de Nota");
+        Debug.Log("Abriu");
     }
-    
-    public void NoteSceneBTN()
+    private void OnCloseNotePadBTNClick()
     {
-        NotePadPainel.SetActive(true);
+        Debug.Log("Fechar");
+    }
+
+
+    public void OpenNotePad()
+    {
+        notePadPainel.SetActive(true);
+    }
+    public void CloseNotePad()
+    {
+        notePadPainel.SetActive(false);
     }
 }
