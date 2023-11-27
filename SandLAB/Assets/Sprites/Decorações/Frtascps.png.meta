@@ -103,7 +103,1078 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Frtascps_0
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 17
+        width: 43
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d12ed0fb76e3c354f957705aefe9073b
+      internalID: 909867963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frtascps_1
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 21
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6222102b33b91c1449e794f1a139b123
+      internalID: 679785427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frtascps_2
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 17
+        width: 43
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c75325db7f712645a508cf5a47347de
+      internalID: 1340484568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frtascps_3
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 21
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb2986951de8d9442a4af287fb8de85f
+      internalID: -1714960086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frtascps_4
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 3
+        width: 72
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ba0721c0d4e1404294f7d5fb8212e31
+      internalID: 88972299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frtascps_5
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 3
+        width: 72
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caef8b8962f73a04b8b0fae4d0bef9d7
+      internalID: 231413512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frtascps_6
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 3
+        width: 72
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef7fd038decf51d4aa3d85c1ed85acfd
+      internalID: 1350719807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frtascps_7
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 3
+        width: 72
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2cca2b369b2b104d81797a1a5fb9d49
+      internalID: 1734294713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frtascps_8
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 3
+        width: 72
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 408a031b3169d1c4b889a9b6f9441525
+      internalID: 2099131567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frtascps_9
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 3
+        width: 72
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0695722a02e563e4b8c85f4e080d4233
+      internalID: -1888367409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frtascps_10
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 17
+        width: 43
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d2f65089980b94792322474d6d2742
+      internalID: -829083301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frtascps_11
+      rect:
+        serializedVersion: 2
+        x: 1746
+        y: 17
+        width: 43
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6c56971683386149aaf59c57c7a3166
+      internalID: 331476830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frtascps_12
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 17
+        width: 43
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1190ad7842327ed439a6672f2d880b96
+      internalID: 1555580012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frtascps_13
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 17
+        width: 43
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 944e4c977720e5f408fe13fc42a6e4a8
+      internalID: -416857546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frtascps_14
+      rect:
+        serializedVersion: 2
+        x: 2322
+        y: 17
+        width: 43
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e638edc61561c4fb83eba6a3ad6146
+      internalID: 2002279545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frtascps_15
+      rect:
+        serializedVersion: 2
+        x: 2514
+        y: 17
+        width: 43
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea664c1c405cf2a4d88450370b178431
+      internalID: -791956789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frtascps_16
+      rect:
+        serializedVersion: 2
+        x: 2706
+        y: 17
+        width: 43
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d7dd2daa5ac1014795c7ca398a9f2bf
+      internalID: 274076530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frtascps_17
+      rect:
+        serializedVersion: 2
+        x: 2801
+        y: 21
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f813b2bfb5cbfd468973d508f8df6a5
+      internalID: 148514888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frtascps_18
+      rect:
+        serializedVersion: 2
+        x: 2898
+        y: 3
+        width: 72
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f757f670e7be7f419df65aa2992f237
+      internalID: -1811441854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frtascps_19
+      rect:
+        serializedVersion: 2
+        x: 3090
+        y: 3
+        width: 72
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bee9e75d6b8f634a811ffa1e6803da3
+      internalID: 669881949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frtascps_20
+      rect:
+        serializedVersion: 2
+        x: 3282
+        y: 3
+        width: 72
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b502e3341001040b960124d008322f
+      internalID: -1897584953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frtascps_21
+      rect:
+        serializedVersion: 2
+        x: 3474
+        y: 3
+        width: 72
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd92dbb54ff129e4da7b8c672c57777b
+      internalID: 1203953206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frtascps_22
+      rect:
+        serializedVersion: 2
+        x: 3666
+        y: 3
+        width: 72
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e05435f8182d3ac449657bfcce9a274c
+      internalID: 2017576255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frtascps_23
+      rect:
+        serializedVersion: 2
+        x: 3858
+        y: 3
+        width: 72
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d65c633a22cd6e04b8f1c5104a17aea5
+      internalID: 1176468336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frtascps_24
+      rect:
+        serializedVersion: 2
+        x: 4050
+        y: 17
+        width: 43
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6571cafe0fb3aa34ba1e488311b9e650
+      internalID: 1761051080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frtascps_25
+      rect:
+        serializedVersion: 2
+        x: 4242
+        y: 17
+        width: 43
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e10592a95239e543a3d4944901624ae
+      internalID: 1208141981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frtascps_26
+      rect:
+        serializedVersion: 2
+        x: 4337
+        y: 21
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89981976c7adc2c42adc28351c2174d8
+      internalID: -590474337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frtascps_27
+      rect:
+        serializedVersion: 2
+        x: 4434
+        y: 17
+        width: 43
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c001d6a39d055a24c80ae199b5b12408
+      internalID: -1670696718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frtascps_28
+      rect:
+        serializedVersion: 2
+        x: 4488
+        y: 18
+        width: 55
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1e2bdc40c8cc1d469a898466e695134
+      internalID: 477390020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frtascps_29
+      rect:
+        serializedVersion: 2
+        x: 4543
+        y: 17
+        width: 43
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 207fa5eec076f114b86b872d69d94bbb
+      internalID: 934357383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frtascps_30
+      rect:
+        serializedVersion: 2
+        x: 4626
+        y: 3
+        width: 72
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc6cdf9d70607ac48a154bd1563a063d
+      internalID: -1041018706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frtascps_31
+      rect:
+        serializedVersion: 2
+        x: 4818
+        y: 3
+        width: 72
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e0298fc9c3acb847886e20b05eef1a2
+      internalID: -1038923428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frtascps_32
+      rect:
+        serializedVersion: 2
+        x: 5010
+        y: 3
+        width: 72
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40245e543d125342a3f33658bb19bbd
+      internalID: -241535084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frtascps_33
+      rect:
+        serializedVersion: 2
+        x: 5202
+        y: 3
+        width: 72
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8d1fccafd234424d8e8ddcad8791508
+      internalID: -531313056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frtascps_34
+      rect:
+        serializedVersion: 2
+        x: 5394
+        y: 3
+        width: 72
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c42e01fc77b64a04692b7857f1c613fd
+      internalID: 2129726970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frtascps_35
+      rect:
+        serializedVersion: 2
+        x: 5586
+        y: 3
+        width: 72
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e629b5c8673c4d458702f5b584c7976
+      internalID: -920673882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frtascps_36
+      rect:
+        serializedVersion: 2
+        x: 5778
+        y: 3
+        width: 72
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10df6a50f235a994ea5dc963f468521d
+      internalID: 1685962955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frtascps_37
+      rect:
+        serializedVersion: 2
+        x: 5982
+        y: 32
+        width: 21
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4b4a426806bb1e47a9bdb96a1c99d97
+      internalID: -1311877987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frtascps_38
+      rect:
+        serializedVersion: 2
+        x: 6028
+        y: 31
+        width: 41
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c3f53ba7a0b2740b487e2aca874de7
+      internalID: 2062492859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frtascps_39
+      rect:
+        serializedVersion: 2
+        x: 6080
+        y: 32
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4f3fb03ca54eb54e9ce95465970d206
+      internalID: -1594650746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frtascps_40
+      rect:
+        serializedVersion: 2
+        x: 6213
+        y: 10
+        width: 55
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 486e619f851701d42ac7e9a4e68a9b51
+      internalID: -1735247448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frtascps_41
+      rect:
+        serializedVersion: 2
+        x: 6405
+        y: 10
+        width: 55
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c03a34d607ae4c4aaa0feca043b0f5a
+      internalID: -1235423456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frtascps_42
+      rect:
+        serializedVersion: 2
+        x: 6597
+        y: 10
+        width: 55
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 456b4fcfb355b1743a5469303782805e
+      internalID: -798104477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frtascps_43
+      rect:
+        serializedVersion: 2
+        x: 6789
+        y: 10
+        width: 55
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be2a7b9da456b554594cd39ed3a9eda5
+      internalID: -1983310759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frtascps_44
+      rect:
+        serializedVersion: 2
+        x: 6981
+        y: 10
+        width: 55
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9ee13854a8370d4cab628700d7c5620
+      internalID: 1567312462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frtascps_45
+      rect:
+        serializedVersion: 2
+        x: 7173
+        y: 10
+        width: 55
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9f54f49f33964c4cad0fdd0d05994b2
+      internalID: 2126361015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frtascps_46
+      rect:
+        serializedVersion: 2
+        x: 7365
+        y: 10
+        width: 55
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aee384faf67732e4894a0f3d0d3bac58
+      internalID: -2122482899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frtascps_47
+      rect:
+        serializedVersion: 2
+        x: 7557
+        y: 10
+        width: 55
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6d60a3d977bc44fbba4069f32a219e
+      internalID: -704672095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frtascps_48
+      rect:
+        serializedVersion: 2
+        x: 7749
+        y: 10
+        width: 55
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8ceb946a3517234a9f8c5341e275085
+      internalID: 8437435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frtascps_49
+      rect:
+        serializedVersion: 2
+        x: 7941
+        y: 10
+        width: 55
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 498e696d69dc7e64992215c85a668bc9
+      internalID: -900115982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Frtascps_50
+      rect:
+        serializedVersion: 2
+        x: 8133
+        y: 10
+        width: 55
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 903ff0099fb365848a6c5bf24ed49b3a
+      internalID: -1718035904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -114,7 +1185,58 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Frtascps_29: 934357383
+      Frtascps_49: -900115982
+      Frtascps_22: 2017576255
+      Frtascps_37: -1311877987
+      Frtascps_50: -1718035904
+      Frtascps_17: 148514888
+      Frtascps_45: 2126361015
+      Frtascps_20: -1897584953
+      Frtascps_13: -416857546
+      Frtascps_2: 1340484568
+      Frtascps_16: 274076530
+      Frtascps_6: 1350719807
+      Frtascps_9: -1888367409
+      Frtascps_43: -1983310759
+      Frtascps_47: -704672095
+      Frtascps_0: 909867963
+      Frtascps_8: 2099131567
+      Frtascps_4: 88972299
+      Frtascps_46: -2122482899
+      Frtascps_19: 669881949
+      Frtascps_33: -531313056
+      Frtascps_23: 1176468336
+      Frtascps_44: 1567312462
+      Frtascps_14: 2002279545
+      Frtascps_15: -791956789
+      Frtascps_34: 2129726970
+      Frtascps_30: -1041018706
+      Frtascps_12: 1555580012
+      Frtascps_35: -920673882
+      Frtascps_5: 231413512
+      Frtascps_39: -1594650746
+      Frtascps_10: -829083301
+      Frtascps_38: 2062492859
+      Frtascps_40: -1735247448
+      Frtascps_21: 1203953206
+      Frtascps_3: -1714960086
+      Frtascps_27: -1670696718
+      Frtascps_18: -1811441854
+      Frtascps_31: -1038923428
+      Frtascps_11: 331476830
+      Frtascps_42: -798104477
+      Frtascps_25: 1208141981
+      Frtascps_36: 1685962955
+      Frtascps_48: 8437435
+      Frtascps_26: -590474337
+      Frtascps_28: 477390020
+      Frtascps_1: 679785427
+      Frtascps_41: -1235423456
+      Frtascps_24: 1761051080
+      Frtascps_32: -241535084
+      Frtascps_7: 1734294713
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

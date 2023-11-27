@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 16162ac18dcb4054caf3ed167fcba029
+guid: 0cad7f8dd495ddd41b25953a664459c8
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pixilart-sprite (1) 1_0
+      name: Pixilart Sprite Sheet ferramenta de mistura (1)_0
       rect:
         serializedVersion: 2
-        x: 96
-        y: 222
-        width: 222
-        height: 210
+        x: 224
+        y: 64
+        width: 64
+        height: 336
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 499fba1626aaafa4fa543307bc89c0d2
-      internalID: -1516644794
+      spriteID: 15a3afda6cafad84b8a18396ca081eca
+      internalID: -1312351960
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: pixilart-sprite (1) 1_1
+      name: Pixilart Sprite Sheet ferramenta de mistura (1)_1
       rect:
         serializedVersion: 2
-        x: 474
-        y: 222
-        width: 235
-        height: 235
+        x: 744
+        y: 64
+        width: 64
+        height: 336
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,29 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3fb0566247489a042a664921a31a7caa
-      internalID: -312558437
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: pixilart-sprite (1) 1_2
-      rect:
-        serializedVersion: 2
-        x: 1595
-        y: 258
-        width: 266
-        height: 289
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cc4529e4f027646438e6121099123457
-      internalID: 1511687485
+      spriteID: faa24d02abce438449a030ae2a0f60d8
+      internalID: 888615423
       vertices: []
       indices: 
       edges: []
@@ -178,9 +157,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      pixilart-sprite (1) 1_1: -312558437
-      pixilart-sprite (1) 1_2: 1511687485
-      pixilart-sprite (1) 1_0: -1516644794
+      Pixilart Sprite Sheet ferramenta de mistura (1)_1: 888615423
+      Pixilart Sprite Sheet ferramenta de mistura (1)_0: -1312351960
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
