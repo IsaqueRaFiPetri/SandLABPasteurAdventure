@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d5ac10714de12eb4bb4e6141a89a6edd
+guid: 08a7e1985bc43af4393451228228a838
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: "Bot\xE3o_BlocoDeNotas_0"
+      name: "decora\xE7\xE3o puzzle microscopio_1"
       rect:
         serializedVersion: 2
-        x: 170
-        y: 102
-        width: 714
-        height: 816
+        x: 264
+        y: 340
+        width: 256
+        height: 184
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,8 +119,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 130484cccf4ef544db83b71c52fbe2e1
-      internalID: 412354901
+      spriteID: 5b1e73efc953cd84780f46fae1d82612
+      internalID: 962393320
       vertices: []
       indices: 
       edges: []
@@ -136,7 +136,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      "Bot\xE3o_BlocoDeNotas_0": 412354901
+      "decora\xE7\xE3o puzzle microscopio_0": 2073396718
+      "decora\xE7\xE3o puzzle microscopio_2": -1872119664
+      "decora\xE7\xE3o puzzle microscopio_1": 962393320
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

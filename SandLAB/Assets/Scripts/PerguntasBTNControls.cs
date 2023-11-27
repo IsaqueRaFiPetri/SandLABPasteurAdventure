@@ -33,8 +33,8 @@ public class PerguntasBTNControls : MonoBehaviour
     }
     public void BTNLastQuestionCorect()
     {
-        painelDasPerguntas.SetActive(false);
         proximaPergunta.SetActive(true);
+        painelDasPerguntas.SetActive(false);
     }
 
 }
