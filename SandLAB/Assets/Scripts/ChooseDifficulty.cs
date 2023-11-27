@@ -23,7 +23,7 @@ public class ChooseDifficulty : MonoBehaviour
     }
     public void FecharPainel()
     {
-        gameObject.SetActive(false);
+        PainelDificuldades.SetActive(false);
         Debug.Log("Fechou");
     }
 }

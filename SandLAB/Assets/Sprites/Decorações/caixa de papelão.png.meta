@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: dd5e25f75b572494c805fcfaf371ebcd
+guid: 9ceac4b5cba21f349b5f700d8fb98dca
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -44,7 +44,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pixil-frame-0 (41) 1_0
+      name: "caixa de papel\xE3o_0"
       rect:
         serializedVersion: 2
-        x: 240
-        y: 10
-        width: 510
-        height: 490
+        x: 870
+        y: 210
+        width: 600
+        height: 520
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,8 +119,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9f432586b14dc34a9737e9c187c1de8
-      internalID: 5843908
+      spriteID: 9a614940433447543ae46f8794d3161e
+      internalID: 553238911
       vertices: []
       indices: 
       edges: []
@@ -136,7 +136,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      pixil-frame-0 (41) 1_0: 5843908
+      "caixa de papel\xE3o_0": 553238911
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

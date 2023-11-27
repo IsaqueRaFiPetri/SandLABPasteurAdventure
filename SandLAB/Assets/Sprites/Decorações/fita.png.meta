@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: dd5e25f75b572494c805fcfaf371ebcd
+guid: 9e7995895676fca419660f7485ccbe8b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -44,7 +44,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pixil-frame-0 (41) 1_0
+      name: fita_0
       rect:
         serializedVersion: 2
         x: 240
-        y: 10
-        width: 510
-        height: 490
+        y: 520
+        width: 1350
+        height: 390
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,8 +119,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9f432586b14dc34a9737e9c187c1de8
-      internalID: 5843908
+      spriteID: 16ab9be42c165094182734a165e4facb
+      internalID: -730746324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fita_1
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 90
+        width: 1350
+        height: 390
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2611f7c3ba6a954b8453f239dafd15b
+      internalID: -1960036804
       vertices: []
       indices: 
       edges: []
@@ -136,7 +157,8 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      pixil-frame-0 (41) 1_0: 5843908
+      fita_1: -1960036804
+      fita_0: -730746324
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

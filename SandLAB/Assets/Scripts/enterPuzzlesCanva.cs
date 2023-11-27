@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class enterPuzzles : MonoBehaviour
+public class enterPuzzlesCanva : MonoBehaviour
 {
     public GameObject painel; // The name of the scene you want to load
     public KeyCode keyToPress = KeyCode.E; // Change this to the key you want to use

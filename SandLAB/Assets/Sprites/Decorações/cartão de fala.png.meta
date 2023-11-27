@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: dd5e25f75b572494c805fcfaf371ebcd
+guid: a3fc29e917128f54dacea246eeb9a350
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -44,7 +44,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: pixil-frame-0 (41) 1_0
+      name: "cart\xE3o de fala_0"
       rect:
         serializedVersion: 2
-        x: 240
-        y: 10
-        width: 510
-        height: 490
+        x: 10
+        y: 150
+        width: 1900
+        height: 640
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,8 +119,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d9f432586b14dc34a9737e9c187c1de8
-      internalID: 5843908
+      spriteID: 55a02177d08d2764693001e8c9a0a16b
+      internalID: 1480541166
       vertices: []
       indices: 
       edges: []
@@ -136,7 +136,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      pixil-frame-0 (41) 1_0: 5843908
+      "cart\xE3o de fala_0": 1480541166
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

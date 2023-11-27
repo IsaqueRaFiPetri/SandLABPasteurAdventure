@@ -48,8 +48,11 @@ TagManager:
   - name: Peca
     uniqueID: 3372129061
     locked: 0
-  - name: "Decora\xE7\xE3o"
+  - name: "Decora\xE7\xE3o1"
     uniqueID: 2661392861
+    locked: 0
+  - name: "Decora\xE7\xE3o2"
+    uniqueID: 2987432463
     locked: 0
   - name: Player
     uniqueID: 1196704299
