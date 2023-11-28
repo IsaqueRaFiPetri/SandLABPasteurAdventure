@@ -616,7 +616,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isConected: 0
   movVelocity: 10
-  conector: {fileID: 535925509}
+  conector: {fileID: 135260558}
   minimunDistanceFromConector: 0.5
 --- !u!50 &291017972
 Rigidbody2D:
