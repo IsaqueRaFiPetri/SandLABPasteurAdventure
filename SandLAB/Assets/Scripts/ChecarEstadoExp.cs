@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ChecarEstadoExp : MonoBehaviour
 {
     public bool complete;
     float cronometro;
+    public string sceneName;
 
     MoveObj2DExp[] objetos;
 
@@ -32,6 +34,7 @@ public class ChecarEstadoExp : MonoBehaviour
             if (soma >= objetos.Length)
             {
                 complete = true;
+                SceneManager.LoadScene(sceneName);
 
             }
         }

@@ -934,6 +934,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   complete: 0
+  sceneName: Experiencia2
 --- !u!4 &973222557
 Transform:
   m_ObjectHideFlags: 0
