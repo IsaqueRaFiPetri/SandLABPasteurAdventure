@@ -7,6 +7,7 @@ public class ChecarEstado : MonoBehaviour
 {
     public bool complete;
     float cronometro;
+    public string sceneName;
 
     MoverObject2D[] objetos;
 
@@ -33,6 +34,7 @@ public class ChecarEstado : MonoBehaviour
             if(soma >= objetos.Length)
             {
                 complete = true;
+                SceneManager.LoadScene(sceneName);
 
             }
         }
