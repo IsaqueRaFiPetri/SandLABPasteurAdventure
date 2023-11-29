@@ -5,10 +5,7 @@ using UnityEngine.UI;
 public class Menu : MonoBehaviour
 {
     [SerializeField] private GameObject painelCreditos;
-    [SerializeField] private Button playBTN;
-    [SerializeField] private Button quitlBTN;
-    [SerializeField] private Button sairCreditosBTN;
-    [SerializeField] private Button CretisBTN;
+    [SerializeField] private GameObject painelControles;
     public string sceneNameToLoad;
 
     public void Creditos()
@@ -16,10 +13,20 @@ public class Menu : MonoBehaviour
         painelCreditos.SetActive(true);
         Debug.Log("Créditos");
     }
+    public void Controles()
+    {
+        painelControles.SetActive(true);
+        Debug.Log("controls");
+    }
     public void SairDosCreditos()
     {
         painelCreditos.SetActive(false);
-        Debug.Log("Sair Créditos");
+        Debug.Log("Sair painel");
+    }
+    public void SairDosControles()
+    {
+        painelControles.SetActive(false);
+        Debug.Log("Sair painel");
     }
     public void PlayBTN()
     {
