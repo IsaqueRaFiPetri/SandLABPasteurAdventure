@@ -39,4 +39,9 @@ public class Menu : MonoBehaviour
         Application.Quit();
         Debug.Log("Quit");
     }
+
+    public void Sair()
+    {
+        painelControles.SetActive(false);
+    }
 }
