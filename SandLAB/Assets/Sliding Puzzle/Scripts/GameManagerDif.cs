@@ -14,7 +14,6 @@ public class GameManagerDif : MonoBehaviour
     private int size;
     private bool shuffling = false;
     public string sceneNameToLoad;
-    public GameObject sairDoPuzzleParent;
     public Button sairDoPuzzle;
 
     // Create the game setup with size x size pieces.
