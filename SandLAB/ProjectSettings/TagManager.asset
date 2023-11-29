@@ -49,6 +49,9 @@ TagManager:
   - name: "Decora\xE7\xE3o2"
     uniqueID: 2987432463
     locked: 0
+  - name: "Decora\xE7\xE3o3"
+    uniqueID: 1438005109
+    locked: 0
   - name: Conector
     uniqueID: 243157033
     locked: 0
